@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.service.CashbackHackServiceTest" tests="4" skipped="0" failures="1" errors="0" timestamp="2022-10-25T18:14:32" hostname="MacBook-Air-Artem.local" time="0.012">
+<testsuite name="ru.netology.service.CashbackHackServiceTest" tests="4" skipped="0" failures="1" errors="0" timestamp="2022-10-25T19:26:07" hostname="MacBook-Air-Artem.local" time="0.014">
   <properties/>
-  <testcase name="testRemain1" classname="ru.netology.service.CashbackHackServiceTest" time="0.006"/>
-  <testcase name="testRemain2" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
-  <testcase name="testRemain3" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
-  <testcase name="testRemain4" classname="ru.netology.service.CashbackHackServiceTest" time="0.0">
-    <failure message="java.lang.AssertionError: expected [0] but found [1000]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1000]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:839)
-	at org.testng.Assert.assertEquals(Assert.java:849)
-	at ru.netology.service.CashbackHackServiceTest.testRemain4(CashbackHackServiceTest.java:34)
+  <testcase name="remain1" classname="ru.netology.service.CashbackHackServiceTest" time="0.008"/>
+  <testcase name="remain2" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
+  <testcase name="remain3" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
+  <testcase name="remain4" classname="ru.netology.service.CashbackHackServiceTest" time="0.0">
+    <failure message="java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;1000&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at ru.netology.service.CashbackHackServiceTest.remain4(CashbackHackServiceTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
